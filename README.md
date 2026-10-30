@@ -8,7 +8,7 @@ A Python-based full-stack application built using **NiceGUI** that connects with
 
 ### 1. Navigate among Search and Draft generator pages
 Select the particular section from the navigation bar to open that page.
-![Navigation Bar](image.png)
+![Navigation Bar](assets/screenshots/navigation_bar.png)
 
 ### 2. Case Search by CNR Number
 Search cases by entering a 16-character CNR number with live CAPTCHA verification and instant refresh:
