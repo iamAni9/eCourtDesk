@@ -11,7 +11,7 @@ def page_header(active: str = 'search'):
         with ui.link(target='/').classes('no-underline text-white flex items-center gap-3 cursor-pointer'):
             ui.icon('balance').classes('text-3xl text-white')
             with ui.column().classes('gap-0'):
-                ui.label('eCourts Draft Generator').classes(
+                ui.label('eCourtDesk').classes(
                     'text-xl font-bold text-white leading-tight'
                 )
                 ui.label(
