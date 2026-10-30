@@ -1,3 +1,4 @@
+import os
 from nicegui import ui
 from app.state import PageState
 from app.components import page_header, section_title
@@ -106,5 +107,12 @@ def draft(
         initial_type=type,
     )
 
+
 if __name__ in {'__main__', '__mp_main__'}:
-    ui.run(title='eCourtDesk', reload=False)
+    ui.run(
+        title='eCourtDesk',
+        host='0.0.0.0',
+        port=int(os.environ.get('PORT', 8080)),
+        reload=False,
+        show=False,
+    )
