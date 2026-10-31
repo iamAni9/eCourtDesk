@@ -1,5 +1,4 @@
-# eCourts Draft Generator
-
+# eCourtDesk
 A Python-based full-stack application built using **NiceGUI** that connects with the **eCourts India portal**. It helps advocates, litigants, and researchers search for court cases across Indian district and sessions courts using a **CNR number** or **case number**. Users can view case details, check hearing history, and generate structured legal documents such as bail applications, legal notices, civil plaints, and affidavits based on Indian court formats.
 
 ---
